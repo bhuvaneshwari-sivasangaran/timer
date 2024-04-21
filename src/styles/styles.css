@@ -1,0 +1,222 @@
+/* styles.css */
+/* Sahilkumar Maheshbhai Parmar */
+
+@import "@fontsource/nunito";
+@import "@fontsource/montserrat";
+
+body {
+    margin: 0 !important;
+    font-family: montserrat !important;
+}
+
+.title {
+    font-family: "Nunito" !important;
+    font-weight: 700;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav-item,
+.footer p {
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: coral !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.home-container {
+    margin: 4rem 6rem;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.founder-card {
+    width: 200px;
+    margin: 1rem;
+    text-align: center;
+    border: 2px solid coral;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.founder-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-form {
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background-color: coral;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Nunito" !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+    color: coral;
+}
+
+.text-center {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content p,
+.benefits p {
+    line-height: 30px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.benefit-card {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 2px solid coral;
+    border-radius: 4px;
+    padding: 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.benefit-card h3 {
+    margin-top: 0;
+}
+
+.benefit-card p {
+    margin-bottom: 0;
+}
+
+.timer-container {
+    text-align: center;
+    margin: 300px 0px;
+}
+
+.timer-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.timer-controls button {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+
+.stop-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+.stop-button:hover {
+    background-color: #da190b;
+}
+
+.reset-button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+}
+
+.reset-button:hover {
+    background-color: #0077a3;
+}
